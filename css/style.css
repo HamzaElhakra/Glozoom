@@ -1,0 +1,142 @@
+body {
+    overflow-x: hidden;
+}
+.navbar .navbar-brand {
+    font-size: 1.2rem;
+}
+.navbar {
+    border-bottom: transparent;
+}
+.nav-link {
+    text-transform: capitalize;
+    margin-right: 17px;
+}
+
+.carousel-inner .carousel-item {
+    height: 438px;
+    position: relative;
+}
+.carousel-inner .carousel-item.carousel-img-1.active {
+    background-image: url("../imgs/img1.jpg");
+    background-size: cover;
+}
+.carousel-inner .carousel-item.carousel-img-2 {
+    background-image: url("/imgs/img2.jpg");
+    background-size: cover;
+}
+.carousel-inner .carousel-item.carousel-img-3 {
+    background-image: url("/imgs/image3.jpg");
+    background-size: cover;
+}
+.carousel-caption {
+    position: absolute;
+    top: 25%;
+}
+.card {
+    border: none;
+}
+#home-question,
+#home-video {
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    margin-top: 100px;
+    background-image: url(../imgs/moon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#home-question .qs {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#home-question .qs,
+#home-question .text {
+    color: #fff;
+}
+#home-question .row .col {
+    position: relative;
+    top: 60px;
+}
+#home-video {
+    background-image: url(../imgs/media.jpg);
+    background-size: cover;
+    position: relative;
+}
+#home-video .overlay {
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 102.5%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#home-video .overlay a i {
+    color: #fff;
+}
+#home-video .overlay p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+}
+#home-video iframe {
+    width: 100%;
+    height: 300px;
+}
+#home-photo {
+    text-align: center;
+    margin-top: 50px;
+}
+#home-photo img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+#home-newsletter {
+    height: 300px;
+    margin-top: 80px;
+    padding-top: 50px;
+    background-color: #343A40;
+}
+.form-inline .form-control {
+    width: 50%;
+}
+#home-footer {
+    height: 100px;
+    padding-top: 25px;
+    background-color: #000;
+}
+#home-footer p:first-child {
+    border-right: 2px solid #007bff;
+}
+#page-header-about {
+    height: 200px;
+    color: #fff;
+    background-image: url(../imgs/lights.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#about .about-img {
+    width: 435px;
+    height: 435px;
+    margin-top: -70px;
+}
+#page-header-service{
+    height: 200px;
+    color: #fff;
+    background-image: url(../imgs/lights.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#faq .card-header,
+#faq .card-body {
+    background-color: #333;
+}
+#faq a {
+    text-decoration: none;
+}
